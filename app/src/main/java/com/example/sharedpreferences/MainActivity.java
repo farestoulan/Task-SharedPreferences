@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 EditText txtuser = (EditText) findViewById(R.id.et_getdata);
                 txtuser.setText(sharedPreferences.getString("data","emplty"));
+                Toast.makeText(MainActivity.this , "Get Data Successfully",Toast.LENGTH_LONG).show();
+
             }
         });
 
