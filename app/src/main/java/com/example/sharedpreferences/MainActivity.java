@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences.Editor myedit = sharedPreferences.edit();
                 myedit.putString("data", txtuser.getText().toString());
                 myedit.commit();
-              //  Toast.makeText(this , "Data Successfully Saved",Toast.LENGTH_LONG).show();
+               Toast.makeText(MainActivity.this , "Data Successfully Saved",Toast.LENGTH_LONG).show();
 
             }
         });
